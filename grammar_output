@@ -1,0 +1,60 @@
+// Grammar
+digraph {
+	rankdir=LR
+	program [label=<program>]
+	statement [label=<statement>]
+	assignment [label=<assignment>]
+	expression [label=<expression>]
+	term [label=<term>]
+	factor [label=<factor>]
+	control_flow [label=<control_flow>]
+	loop [label=<loop>]
+	identif [label=<identif>]
+	number [label=<number>]
+	letter [label=<letter>]
+	digit [label=<digit>]
+	range [label=<range>]
+	program -> statement
+	statement -> assignment
+	statement -> expression
+	statement -> control_flow
+	statement -> loop
+	assignment -> identif [label=identif]
+	assignment -> expression [label="= expression"]
+	expression -> term [label=term]
+	expression -> term [label="+|-"]
+	term -> factor [label=factor]
+	term -> factor [label="*|/"]
+	factor -> number [label=number]
+	factor -> identif [label=identif]
+	factor -> expression [label="(expression)"]
+	control_flow -> begin
+	control_flow -> if
+	control_flow -> logic_expression
+	control_flow -> then
+	control_flow -> program
+	control_flow -> elif
+	control_flow -> program
+	control_flow -> else
+	control_flow -> program
+	control_flow -> end
+	loop -> for_loop
+	loop -> nested_for_loop
+	for_loop [label=<for_loop>]
+	for_loop -> identif [label=identif]
+	for_loop -> range [label="in range"]
+	for_loop -> program [label="do program"]
+	nested_for_loop [label=<nested_for_loop>]
+	nested_for_loop -> identif [label=identif]
+	nested_for_loop -> range [label="in range"]
+	nested_for_loop -> for_loop [label="do nested_for_loop"]
+	range -> number [label=number]
+	range -> number [label=to]
+	{
+		rank=same
+		identif
+		number
+		letter
+		digit
+	}
+}
