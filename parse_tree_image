@@ -1,0 +1,157 @@
+digraph "parse tree" {
+	"s^ByoqBI7rhOf!wjZ(&FRWeTgb_10E" [label=program]
+	"34dY82y)O1JlZt#WUDrS^nVw@Q%5HK" [label=block]
+	"s^ByoqBI7rhOf!wjZ(&FRWeTgb_10E" -> "34dY82y)O1JlZt#WUDrS^nVw@Q%5HK"
+	"Y7B3hfWij#x*QTMtnorzqaSyK@Jbe5" [label=ASSIGNMENT]
+	"34dY82y)O1JlZt#WUDrS^nVw@Q%5HK" -> "Y7B3hfWij#x*QTMtnorzqaSyK@Jbe5"
+	"^jsK1IByEC%Tn8bu)SNVc3kFAq#!dz" [label=VARIABLE]
+	"Y7B3hfWij#x*QTMtnorzqaSyK@Jbe5" -> "^jsK1IByEC%Tn8bu)SNVc3kFAq#!dz"
+	"M(l3mc*r1sD8UYeuWt7bQ59Ob_C&Ix" [label=x]
+	"^jsK1IByEC%Tn8bu)SNVc3kFAq#!dz" -> "M(l3mc*r1sD8UYeuWt7bQ59Ob_C&Ix"
+	"+(XslTV49HORM8u_gAatGShi5BeN%F" [label=EXPRESSION]
+	"Y7B3hfWij#x*QTMtnorzqaSyK@Jbe5" -> "+(XslTV49HORM8u_gAatGShi5BeN%F"
+	"Dis!qo8S(X$VkdOlhLg@03v)B1*uY_" [label=ADDITION]
+	"+(XslTV49HORM8u_gAatGShi5BeN%F" -> "Dis!qo8S(X$VkdOlhLg@03v)B1*uY_"
+	"8xHEzl@WMZ5Jt&aq6)SvAe3+Q1r9%k" [label=Literal]
+	"Dis!qo8S(X$VkdOlhLg@03v)B1*uY_" -> "8xHEzl@WMZ5Jt&aq6)SvAe3+Q1r9%k"
+	"bAnVjGL)fl^2zwHotN_TxbU9#h7c+R" [label=7]
+	"8xHEzl@WMZ5Jt&aq6)SvAe3+Q1r9%k" -> "bAnVjGL)fl^2zwHotN_TxbU9#h7c+R"
+	"QvbHq(!+KOVU^T8&_I9cb*RaDgd02@" [label=MULTIPLICATION]
+	"Dis!qo8S(X$VkdOlhLg@03v)B1*uY_" -> "QvbHq(!+KOVU^T8&_I9cb*RaDgd02@"
+	"lOm1bSBUA2+HXsw0(Zv_5eftLdM39i" [label=Literal]
+	"QvbHq(!+KOVU^T8&_I9cb*RaDgd02@" -> "lOm1bSBUA2+HXsw0(Zv_5eftLdM39i"
+	"qxeZbm9T70DBIjC^fhwQWF3#VBvR(*" [label=4]
+	"lOm1bSBUA2+HXsw0(Zv_5eftLdM39i" -> "qxeZbm9T70DBIjC^fhwQWF3#VBvR(*"
+	"Okbrt@!GX*E(VJ8gxK_9dbHheym5jN" [label=Literal]
+	"QvbHq(!+KOVU^T8&_I9cb*RaDgd02@" -> "Okbrt@!GX*E(VJ8gxK_9dbHheym5jN"
+	"bR^9fhs&MKo!ILA)zmxBaQg*4#kF@G" [label=3]
+	"Okbrt@!GX*E(VJ8gxK_9dbHheym5jN" -> "bR^9fhs&MKo!ILA)zmxBaQg*4#kF@G"
+	"(+_ivqCk573j6M8)X9FwNe1ygSDn&B" [label=ASSIGNMENT]
+	"34dY82y)O1JlZt#WUDrS^nVw@Q%5HK" -> "(+_ivqCk573j6M8)X9FwNe1ygSDn&B"
+	"OB&xZQK@EkG#oy%j2nvN6Xb5V3z$FL" [label=VARIABLE]
+	"(+_ivqCk573j6M8)X9FwNe1ygSDn&B" -> "OB&xZQK@EkG#oy%j2nvN6Xb5V3z$FL"
+	"#yY08L!&KTafr_AsbhM(XIlWj2xCH4" [label=y]
+	"OB&xZQK@EkG#oy%j2nvN6Xb5V3z$FL" -> "#yY08L!&KTafr_AsbhM(XIlWj2xCH4"
+	"^GWCguJeH*3fXdL$6A%&sZ5zFD8#n0" [label=EXPRESSION]
+	"(+_ivqCk573j6M8)X9FwNe1ygSDn&B" -> "^GWCguJeH*3fXdL$6A%&sZ5zFD8#n0"
+	"sEawyUV@fQ9vM0ojdt1#uiGNk$h4_C" [label=SUBTRACTION]
+	"^GWCguJeH*3fXdL$6A%&sZ5zFD8#n0" -> "sEawyUV@fQ9vM0ojdt1#uiGNk$h4_C"
+	"_9RF4m)bTYq^UbuhXHCIQ(5WByAG!f" [label=Literal]
+	"sEawyUV@fQ9vM0ojdt1#uiGNk$h4_C" -> "_9RF4m)bTYq^UbuhXHCIQ(5WByAG!f"
+	"d6QFG2Vz@qvmEsKRkLrI*ijnT01)H%" [label=10]
+	"_9RF4m)bTYq^UbuhXHCIQ(5WByAG!f" -> "d6QFG2Vz@qvmEsKRkLrI*ijnT01)H%"
+	"^rq8kBmxYevCH*zjWN%9$siATR4_KI" [label=DIVISION]
+	"sEawyUV@fQ9vM0ojdt1#uiGNk$h4_C" -> "^rq8kBmxYevCH*zjWN%9$siATR4_KI"
+	"NeUzQn&AWb4)xYBMLsGKX#j*^Cm21!" [label=Literal]
+	"^rq8kBmxYevCH*zjWN%9$siATR4_KI" -> "NeUzQn&AWb4)xYBMLsGKX#j*^Cm21!"
+	"IRL_)%b2N8e0fF7+OZCbd&mn(r^yDs" [label=6]
+	"NeUzQn&AWb4)xYBMLsGKX#j*^Cm21!" -> "IRL_)%b2N8e0fF7+OZCbd&mn(r^yDs"
+	"gh1UW!&kLc60G+A2@xl$aY7B3_mZvy" [label=Literal]
+	"^rq8kBmxYevCH*zjWN%9$siATR4_KI" -> "gh1UW!&kLc60G+A2@xl$aY7B3_mZvy"
+	"^35a&BO6R98oC72!cv)gj$mThXtA_w" [label=3]
+	"gh1UW!&kLc60G+A2@xl$aY7B3_mZvy" -> "^35a&BO6R98oC72!cv)gj$mThXtA_w"
+	"n4QlRG^EOd6wk0NbibShL*)TWBgBm3" [label=block]
+	"34dY82y)O1JlZt#WUDrS^nVw@Q%5HK" -> "n4QlRG^EOd6wk0NbibShL*)TWBgBm3"
+	"nBf_8LRDw1bXkg&2(O%yY5FWV!3$IB" [label="If-Else"]
+	"n4QlRG^EOd6wk0NbibShL*)TWBgBm3" -> "nBf_8LRDw1bXkg&2(O%yY5FWV!3$IB"
+	"BDKWc*dx0%J@NB6taZi3n+w_AuMjGO" [label=CONDITION]
+	"nBf_8LRDw1bXkg&2(O%yY5FWV!3$IB" -> "BDKWc*dx0%J@NB6taZi3n+w_AuMjGO"
+	"kG#BN+j%mEOe*4hQC9&KwAUa5Ln@oq" [label=EXPRESSION]
+	"BDKWc*dx0%J@NB6taZi3n+w_AuMjGO" -> "kG#BN+j%mEOe*4hQC9&KwAUa5Ln@oq"
+	"*rC7$26zcq(iDA4y83m0OEB+d%I#_V" [label=VARIABLE]
+	"kG#BN+j%mEOe*4hQC9&KwAUa5Ln@oq" -> "*rC7$26zcq(iDA4y83m0OEB+d%I#_V"
+	"@khX(v!SOZqdBN8MR3YyWLBAat#Uz&" [label=x]
+	"*rC7$26zcq(iDA4y83m0OEB+d%I#_V" -> "@khX(v!SOZqdBN8MR3YyWLBAat#Uz&"
+	"C$Qix9nsW^E#c(YFvUfHB2De6kZ1@)" [label=OPERATOR]
+	"BDKWc*dx0%J@NB6taZi3n+w_AuMjGO" -> "C$Qix9nsW^E#c(YFvUfHB2De6kZ1@)"
+	"Gu&2Cb0r7nj4%xWR3zviJlB!Z_cIf)" [label="<"]
+	"C$Qix9nsW^E#c(YFvUfHB2De6kZ1@)" -> "Gu&2Cb0r7nj4%xWR3zviJlB!Z_cIf)"
+	"q$Zrn(Jg&)IjMYmw2cO0CHkX4L%u_s" [label=EXPRESSION]
+	"BDKWc*dx0%J@NB6taZi3n+w_AuMjGO" -> "q$Zrn(Jg&)IjMYmw2cO0CHkX4L%u_s"
+	"$UtZFiGn7l9uehE8qoI)kBBLR!0Q_b" [label=VARIABLE]
+	"q$Zrn(Jg&)IjMYmw2cO0CHkX4L%u_s" -> "$UtZFiGn7l9uehE8qoI)kBBLR!0Q_b"
+	"^GtZKzU@!(Q*_NM3l)uiHhI7qdemby" [label=y]
+	"$UtZFiGn7l9uehE8qoI)kBBLR!0Q_b" -> "^GtZKzU@!(Q*_NM3l)uiHhI7qdemby"
+	"GJtm^8RDLcZ6bY+M3BSAOjVCIqrWFd" [label=THEN]
+	"nBf_8LRDw1bXkg&2(O%yY5FWV!3$IB" -> "GJtm^8RDLcZ6bY+M3BSAOjVCIqrWFd"
+	"grM9DA)H2NYKEel_3TC7RQmzF&IU^5" [label=ASSIGNMENT]
+	"GJtm^8RDLcZ6bY+M3BSAOjVCIqrWFd" -> "grM9DA)H2NYKEel_3TC7RQmzF&IU^5"
+	"_jQc13Y4&+rBg9wNkq%!livhbexyLC" [label=VARIABLE]
+	"grM9DA)H2NYKEel_3TC7RQmzF&IU^5" -> "_jQc13Y4&+rBg9wNkq%!livhbexyLC"
+	"_Fxms#CLh2UQVu4%ABldkoNfXcD50S" [label=z]
+	"_jQc13Y4&+rBg9wNkq%!livhbexyLC" -> "_Fxms#CLh2UQVu4%ABldkoNfXcD50S"
+	"wqHZk1tbjyTLn$x#6GcUIDB^3gb45K" [label=EXPRESSION]
+	"grM9DA)H2NYKEel_3TC7RQmzF&IU^5" -> "wqHZk1tbjyTLn$x#6GcUIDB^3gb45K"
+	"MyjVNe43q+o@9kRFI&$BdWZ5bcn^Xf" [label=ADDITION]
+	"wqHZk1tbjyTLn$x#6GcUIDB^3gb45K" -> "MyjVNe43q+o@9kRFI&$BdWZ5bcn^Xf"
+	"QC@UIBi0enWVOwF*obY329fDqS4mLu" [label=VARIABLE]
+	"MyjVNe43q+o@9kRFI&$BdWZ5bcn^Xf" -> "QC@UIBi0enWVOwF*obY329fDqS4mLu"
+	"4wDcNR7!ilF^jm_Yy5#gqCeJ9*M81h" [label=x]
+	"QC@UIBi0enWVOwF*obY329fDqS4mLu" -> "4wDcNR7!ilF^jm_Yy5#gqCeJ9*M81h"
+	"q$(Wd2#X_bJ1VEYQuheS^Rlx+*fN75" [label=VARIABLE]
+	"MyjVNe43q+o@9kRFI&$BdWZ5bcn^Xf" -> "q$(Wd2#X_bJ1VEYQuheS^Rlx+*fN75"
+	"nlS+wLUW_ume6)BGK5%V1sB*bFDhy&" [label=y]
+	"q$(Wd2#X_bJ1VEYQuheS^Rlx+*fN75" -> "nlS+wLUW_ume6)BGK5%V1sB*bFDhy&"
+	"NW9B+57E_rhGTbmfaY#Oqb1wIRtoQA" [label=ELIF]
+	"nBf_8LRDw1bXkg&2(O%yY5FWV!3$IB" -> "NW9B+57E_rhGTbmfaY#Oqb1wIRtoQA"
+	"FBc#s+iVRfxm269l(kwNC4&8zg!J0_" [label=CONDITION]
+	"NW9B+57E_rhGTbmfaY#Oqb1wIRtoQA" -> "FBc#s+iVRfxm269l(kwNC4&8zg!J0_"
+	"*vU$yQm9@sc+Yk)D2fOAdwo&63jXBE" [label=EXPRESSION]
+	"FBc#s+iVRfxm269l(kwNC4&8zg!J0_" -> "*vU$yQm9@sc+Yk)D2fOAdwo&63jXBE"
+	"A$id!ujb30EyVF9+HXhoT8%cMN416@" [label=VARIABLE]
+	"*vU$yQm9@sc+Yk)D2fOAdwo&63jXBE" -> "A$id!ujb30EyVF9+HXhoT8%cMN416@"
+	"2w$aRqsX9AIh7Dn8JK6buMtzY1FL_#" [label=x]
+	"A$id!ujb30EyVF9+HXhoT8%cMN416@" -> "2w$aRqsX9AIh7Dn8JK6buMtzY1FL_#"
+	"wD&)Jo284AUBH9jr5^Tx3!kvXyhCtm" [label=OPERATOR]
+	"FBc#s+iVRfxm269l(kwNC4&8zg!J0_" -> "wD&)Jo284AUBH9jr5^Tx3!kvXyhCtm"
+	"G984mHDU&Y@Z%sc0IuKd3fwayMCzb7" [label="=="]
+	"wD&)Jo284AUBH9jr5^Tx3!kvXyhCtm" -> "G984mHDU&Y@Z%sc0IuKd3fwayMCzb7"
+	"iCBR+KNS4)VW07hQfce$mbYw#zuylL" [label=EXPRESSION]
+	"FBc#s+iVRfxm269l(kwNC4&8zg!J0_" -> "iCBR+KNS4)VW07hQfce$mbYw#zuylL"
+	"$3GuH1*o+5xZ2!&RckBbfjEQ)9F@rb" [label=VARIABLE]
+	"iCBR+KNS4)VW07hQfce$mbYw#zuylL" -> "$3GuH1*o+5xZ2!&RckBbfjEQ)9F@rb"
+	"U26*hgtiuQzV&F)s5BJ^R%EfZ@KX(v" [label=y]
+	"$3GuH1*o+5xZ2!&RckBbfjEQ)9F@rb" -> "U26*hgtiuQzV&F)s5BJ^R%EfZ@KX(v"
+	"BtC9zrR)gWqKobhNAESc!FBLU3_Yef" [label=THEN]
+	"NW9B+57E_rhGTbmfaY#Oqb1wIRtoQA" -> "BtC9zrR)gWqKobhNAESc!FBLU3_Yef"
+	"m*0hzVHgC_n%(T8#rAMiBj@tbdaU1!" [label=ASSIGNMENT]
+	"BtC9zrR)gWqKobhNAESc!FBLU3_Yef" -> "m*0hzVHgC_n%(T8#rAMiBj@tbdaU1!"
+	"lzfY1OnV8_3X)BjJqA*mKe6#(GE^su" [label=VARIABLE]
+	"m*0hzVHgC_n%(T8#rAMiBj@tbdaU1!" -> "lzfY1OnV8_3X)BjJqA*mKe6#(GE^su"
+	"1C^ZVObgc*!+@8yvhJoNi4Ew3fLj7a" [label=z]
+	"lzfY1OnV8_3X)BjJqA*mKe6#(GE^su" -> "1C^ZVObgc*!+@8yvhJoNi4Ew3fLj7a"
+	"dwFszT+c#BkGvU)3O@W^6yao!$4HbC" [label=EXPRESSION]
+	"m*0hzVHgC_n%(T8#rAMiBj@tbdaU1!" -> "dwFszT+c#BkGvU)3O@W^6yao!$4HbC"
+	"GO@ar+ZM_UF)iblgXL$Nu&EdBSAze4" [label=MULTIPLICATION]
+	"dwFszT+c#BkGvU)3O@W^6yao!$4HbC" -> "GO@ar+ZM_UF)iblgXL$Nu&EdBSAze4"
+	"erI^C93QbW+BlmFokf*w$8HqycnzNs" [label=VARIABLE]
+	"GO@ar+ZM_UF)iblgXL$Nu&EdBSAze4" -> "erI^C93QbW+BlmFokf*w$8HqycnzNs"
+	"LdQWZ@h)S5*V6O4KIwMClkqBT1Uin&" [label=x]
+	"erI^C93QbW+BlmFokf*w$8HqycnzNs" -> "LdQWZ@h)S5*V6O4KIwMClkqBT1Uin&"
+	"O(rNi98hqVWxef+URAFY^5I2&a0LSC" [label=VARIABLE]
+	"GO@ar+ZM_UF)iblgXL$Nu&EdBSAze4" -> "O(rNi98hqVWxef+URAFY^5I2&a0LSC"
+	"&^7tQkf_Mmzh6oRrI5BTsXB04(#3ES" [label=y]
+	"O(rNi98hqVWxef+URAFY^5I2&a0LSC" -> "&^7tQkf_Mmzh6oRrI5BTsXB04(#3ES"
+	"f9_YDJ!@cV#(gmFO)s61Mx7XB*^+G&" [label=ELSE]
+	"nBf_8LRDw1bXkg&2(O%yY5FWV!3$IB" -> "f9_YDJ!@cV#(gmFO)s61Mx7XB*^+G&"
+	"gQ&wj+nz1ykIxJCudUbLf!tMB)c_h*" [label=THEN]
+	"f9_YDJ!@cV#(gmFO)s61Mx7XB*^+G&" -> "gQ&wj+nz1ykIxJCudUbLf!tMB)c_h*"
+	"0i&gUACB^WZEMB!FL9jo1_d8hr#l6R" [label=ASSIGNMENT]
+	"gQ&wj+nz1ykIxJCudUbLf!tMB)c_h*" -> "0i&gUACB^WZEMB!FL9jo1_d8hr#l6R"
+	"d@wDi_gouJMG05tv+Qky7Xf)%x*aNr" [label=VARIABLE]
+	"0i&gUACB^WZEMB!FL9jo1_d8hr#l6R" -> "d@wDi_gouJMG05tv+Qky7Xf)%x*aNr"
+	"HTkJse5j8)4!f0QV_*KOn+yN3(1r2q" [label=z]
+	"d@wDi_gouJMG05tv+Qky7Xf)%x*aNr" -> "HTkJse5j8)4!f0QV_*KOn+yN3(1r2q"
+	"MxOeV0g5LokNDsAhJ7GjSbzBC)3#ER" [label=EXPRESSION]
+	"0i&gUACB^WZEMB!FL9jo1_d8hr#l6R" -> "MxOeV0g5LokNDsAhJ7GjSbzBC)3#ER"
+	"F69XBk@#5UOuEi%^KQ30nfb1tsWjhG" [label=SUBTRACTION]
+	"MxOeV0g5LokNDsAhJ7GjSbzBC)3#ER" -> "F69XBk@#5UOuEi%^KQ30nfb1tsWjhG"
+	"J!Gzg@YKjFNukCUB#BIA2D^)byr(*7" [label=VARIABLE]
+	"F69XBk@#5UOuEi%^KQ30nfb1tsWjhG" -> "J!Gzg@YKjFNukCUB#BIA2D^)byr(*7"
+	"4_i589(Nn1)eS3*$mBOXM76vlRbGJI" [label=x]
+	"J!Gzg@YKjFNukCUB#BIA2D^)byr(*7" -> "4_i589(Nn1)eS3*$mBOXM76vlRbGJI"
+	"l3cMV&ksjnu*7fbJ0LB$C_G5mxvX+Y" [label=VARIABLE]
+	"F69XBk@#5UOuEi%^KQ30nfb1tsWjhG" -> "l3cMV&ksjnu*7fbJ0LB$C_G5mxvX+Y"
+	"OwfgZ_FV!#YS9I0CNuKbhXQnEb(l7e" [label=y]
+	"l3cMV&ksjnu*7fbJ0LB$C_G5mxvX+Y" -> "OwfgZ_FV!#YS9I0CNuKbhXQnEb(l7e"
+}

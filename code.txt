@@ -8,7 +8,6 @@ begin
             z = x * y
         else
             z = x - y
-        end
     end
 
     begin
@@ -21,3 +20,4 @@ begin
             end
         end
     end
+end

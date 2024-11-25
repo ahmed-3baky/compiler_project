@@ -65,40 +65,40 @@ def process_file():
         for token, token_type in tokens:
             output_box.insert(tk.END, f"{token:^40}{token_type:^40}\n", 'content')
 
-root = tk.Tk()
-root.title("Token Analyzer")
-root.geometry("1000x800")
-root.configure(bg="#f4f4f4")
+# root = tk.Tk()
+# root.title("Token Analyzer")
+# root.geometry("1000x800")
+# root.configure(bg="#f4f4f4")
 
-root.resizable(False, False)  
+# root.resizable(False, False)  
 
-title_label = tk.Label(root, text="Token Analyzer", font=("Arial", 24, "bold"), bg="#f4f4f4", fg="black")
-title_label.pack(pady=10)
+# title_label = tk.Label(root, text="Token Analyzer", font=("Arial", 24, "bold"), bg="#f4f4f4", fg="black")
+# title_label.pack(pady=10)
 
-open_button = tk.Button(root, text="Open Code File", font=("Arial", 18), bg="#17ffff", fg="black", command=process_file)
-open_button.pack(pady=15)
+# open_button = tk.Button(root, text="Open Code File", font=("Arial", 18), bg="#17ffff", fg="black", command=process_file)
+# open_button.pack(pady=15)
 
-output_frame = tk.Frame(root, bg="#f4f4f4")
-output_frame.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
+# output_frame = tk.Frame(root, bg="#f4f4f4")
+# output_frame.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
 
-output_frame.grid_rowconfigure(0, weight=0)
-output_frame.grid_rowconfigure(1, weight=1)
-output_frame.grid_columnconfigure(0, weight=1)
+# output_frame.grid_rowconfigure(0, weight=0)
+# output_frame.grid_rowconfigure(1, weight=1)
+# output_frame.grid_columnconfigure(0, weight=1)
 
-header_label = tk.Label(
-    output_frame,
-    text=f"{'Token':^40}{'Type':^40}",
-    font=("Courier New", 18, "bold"),
-    bg="#e8f0f8",
-    fg="#333"
-)
-header_label.grid(row=0, column=0, sticky="ew")
+# header_label = tk.Label(
+#     output_frame,
+#     text=f"{'Token':^40}{'Type':^40}",
+#     font=("Courier New", 18, "bold"),
+#     bg="#e8f0f8",
+#     fg="#333"
+# )
+# header_label.grid(row=0, column=0, sticky="ew")
 
-output_box = scrolledtext.ScrolledText(
-    output_frame, wrap=tk.WORD, font=("Courier New", 16), bg="#ffffff", fg="#333"
-)
-output_box.grid(row=1, column=0, sticky="nsew")
+# output_box = scrolledtext.ScrolledText(
+#     output_frame, wrap=tk.WORD, font=("Courier New", 16), bg="#ffffff", fg="#333"
+# )
+# output_box.grid(row=1, column=0, sticky="nsew")
 
-output_box.tag_config('content', font=("Courier New", 16), foreground="#555")
+# output_box.tag_config('content', font=("Courier New", 16), foreground="#555")
 
-root.mainloop()
+# root.mainloop()

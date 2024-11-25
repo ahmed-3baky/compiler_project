@@ -1,0 +1,12 @@
+begin
+    x = 7 + 4 * 3
+    y = 10 - 6 / 3
+    begin
+        if x < y then
+            z = x + y
+        elif x == y then
+            z = x * y
+        else
+            z = x - y
+    end
+end
